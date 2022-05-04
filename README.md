@@ -101,5 +101,16 @@ echo source /opt/asdf-vm/asdf.sh >> ~/.zshrc
 ```
 18. add nvim
 ```
+sh ~/Projects/dotfiles/syslinks/create-sylink-nvim.sh
 echo alias nvim=\"~/Projects/dotfiles/nvim.appimage\" >> ~/.zshrc
+```
+open nvim
+exec :PackerSync
+
+20. install languages
+node
+```
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf install nodejs 18.1.0
+asdf global nodejs 18.1.0
 ```
