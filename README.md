@@ -11,5 +11,6 @@ This is my config for initial dev in manjaro
 4. Make a dir named 'Project' and clone your dotfiles in this dir
 ```
 mkdir ~/Project
+cd ~/Projects
 git clone [dotfiles]
 ```
