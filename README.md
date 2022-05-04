@@ -134,7 +134,13 @@ asdf plugin-add rust https://github.com/code-lever/asdf-rust.git
 asdf install rust 1.60.0
 asdf global rust 1.60.0
 ```
-19. add nvim
+
+19. Install social work
+```
+yay -S slack-wayland zoom
+```
+
+. add nvim
 ```
 sh ~/Projects/dotfiles/syslinks/create-sylink-nvim.sh
 echo alias nvim=\"~/Projects/dotfiles/nvim.appimage\" >> ~/.zshrc
