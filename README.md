@@ -38,3 +38,8 @@ or copy the config
 
 (Now you have your powerfull keyboard!!!! Let's go!)
 
+10. Instal more things
+- polybar
+- picom
+- rofi
+- kitty (or alacritty)
