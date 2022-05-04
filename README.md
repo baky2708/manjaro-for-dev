@@ -8,3 +8,8 @@ This is my config for initial dev in manjaro
 - firefox
 - vim
 - git
+4. Make a dir named 'Project' and clone your dotfiles in this dir
+```
+mkdir ~/Project
+git clone [dotfiles]
+```
