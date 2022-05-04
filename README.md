@@ -99,7 +99,42 @@ echo alias ls="exa --icons" >> ~/.zshrc
 yay -S asdf-vm
 echo source /opt/asdf-vm/asdf.sh >> ~/.zshrc
 ```
-18. add nvim
+
+18. install languages
+node
+```
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf install nodejs 18.1.0
+asdf global nodejs 18.1.0
+```
+
+python
+```
+asdf plugin-add python
+asdf install python 3.10.4
+asdf global python 3.10.4
+```
+ruby
+```
+asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
+asdf install ruby 3.1.2
+asdf global ruby 3.1.2
+```
+
+go
+```
+asdf plugin-add golang https://github.com/kennyp/asdf-golang.git
+asdf install golang 1.18.1
+asdf global golang 1.18.1
+```
+
+rust
+```
+asdf plugin-add rust https://github.com/code-lever/asdf-rust.git
+asdf install rust 1.60.0
+asdf global rust 1.60.0
+```
+19. add nvim
 ```
 sh ~/Projects/dotfiles/syslinks/create-sylink-nvim.sh
 echo alias nvim=\"~/Projects/dotfiles/nvim.appimage\" >> ~/.zshrc
@@ -107,10 +142,3 @@ echo alias nvim=\"~/Projects/dotfiles/nvim.appimage\" >> ~/.zshrc
 open nvim
 exec :PackerSync
 
-20. install languages
-node
-```
-asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
-asdf install nodejs 18.1.0
-asdf global nodejs 18.1.0
-```
