@@ -26,4 +26,8 @@ cd ~/Projects
 git clone [dotfiles]
 ```
 6. install i3wm
-` sudo pacman -S i3-wm i3status`
+` sudo pacman -S i3-wm i3status dmenu i3gaps`
+7. Logout and enter in i3wm system
+8. Get your i3 config
+`sh ~/Projects/dotfiles/syslinks/create-symlink-i3.sh`
+or copy the config
