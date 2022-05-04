@@ -43,3 +43,14 @@ or copy the config
 - picom
 - rofi
 - kitty (or alacritty)
+
+11. Get your kitty config
+12. Get polybar config
+13. Install yay
+```
+cd /tmp
+pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
