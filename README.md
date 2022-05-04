@@ -64,6 +64,7 @@ chsh -s /usr/bin/zsh
 ```
 yay -S zsh-theme-powerlevel10k-git
 yay -S ttf-meslo-nerd-font-powerlevel10k powerline-fonts awesome-terminal-fonts
+echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 ```
 exit and open terminal
 options:
@@ -87,3 +88,18 @@ options:
 - y
 - 1
 - y
+
+16.install exa
+```
+yay -S exa
+echo alias ls="exa --icons" >> ~/.zshrc
+```
+17. Install asdf
+```
+yay -S asdf-vm
+echo source /opt/asdf-vm/asdf.sh >> ~/.zshrc
+```
+18. add nvim
+```
+echo alias nvim=\"~/Projects/dotfiles/nvim.appimage\" >> ~/.zshrc
+```
