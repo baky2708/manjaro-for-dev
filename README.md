@@ -29,5 +29,12 @@ git clone [dotfiles]
 ` sudo pacman -S i3-wm i3status dmenu i3gaps`
 7. Logout and enter in i3wm system
 8. Get your i3 config
-`sh ~/Projects/dotfiles/syslinks/create-symlink-i3.sh`
+```sh ~/Projects/dotfiles/syslinks/create-symlink-i3.sh```
 or copy the config
+
+9. Get your X configs
+```sh ~/Projects/dotfiles/syslinks/create-symlink-xconfig.sh```
+or copy the config
+
+(Now you have your powerfull keyboard!!!! Let's go!)
+
