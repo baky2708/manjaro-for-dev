@@ -8,7 +8,12 @@ This is my config for initial dev in manjaro
 - firefox
 - vim
 - git
-4. Make a dir named 'Project' and clone your dotfiles in this dir
+4. Generate ssh and add to github
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+5. Make a dir named 'Project' and clone your dotfiles in this dir
 ```
 mkdir ~/Project
 cd ~/Projects
