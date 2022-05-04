@@ -54,3 +54,36 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 ```
+
+14.Install zsh
+```
+yay -S zsh
+chsh -s /usr/bin/zsh
+```
+15. Install powerlevel 10k and fonts
+```
+yay -S zsh-theme-powerlevel10k-git
+yay -S ttf-meslo-nerd-font-powerlevel10k powerline-fonts awesome-terminal-fonts
+```
+exit and open terminal
+options:
+- y
+- y
+- y
+- y
+- 3(rainbow)
+- unicode(1)
+- 24-hour format(2)
+- Angled(1)
+- sharp(1)
+- tail(1)
+- Two lines(2)
+- dotted(2)
+- left(2)
+- dark(3)
+- compact(1)
+- many icons(2)
+- concise(1)
+- y
+- 1
+- y
