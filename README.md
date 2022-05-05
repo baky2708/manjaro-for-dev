@@ -106,6 +106,7 @@ node
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf install nodejs 18.1.0
 asdf global nodejs 18.1.0
+npm install -g yarn
 ```
 
 python
@@ -135,15 +136,28 @@ asdf install rust 1.60.0
 asdf global rust 1.60.0
 ```
 
+perl
+```
+asdf plugin-add perl
+asdf install perl 5.35.11
+asdf global perl 5.35.11
+```
+
 19. Install social work
 ```
 yay -S slack-wayland zoom
 ```
 
-. add nvim
+20. add nvim
 ```
+yay -S neovim
+yay -S xsel
+pip install pynvim
+npm i -g neovim
+cpanm -n Neovim::Ext
+cpanm -n App::cpanminus
+gem install neovim
 sh ~/Projects/dotfiles/syslinks/create-sylink-nvim.sh
-echo alias nvim=\"~/Projects/dotfiles/nvim.appimage\" >> ~/.zshrc
 ```
 open nvim
 exec :PackerSync
