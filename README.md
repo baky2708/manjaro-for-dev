@@ -46,7 +46,10 @@ or copy the config
 
 11. Get your kitty config
 12. Get polybar config
-13. Install yay
+```
+sh ~/Projects/dotfiles/symlinks/create-symlink-polybar.sh
+```
+14. Install yay
 ```
 cd /tmp
 pacman -S --needed git base-devel
