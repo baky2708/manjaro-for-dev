@@ -165,3 +165,8 @@ sh ~/Projects/dotfiles/syslinks/create-sylink-nvim.sh
 open nvim
 exec :PackerSync
 
+21. add github configs
+```
+git config --global user.email [email]
+git config --global user.name [name]
+```
