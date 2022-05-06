@@ -170,3 +170,16 @@ exec :PackerSync
 git config --global user.email [email]
 git config --global user.name [name]
 ```
+22. Install Mariadb
+```
+yay -S mariadb
+mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+systemctl start mariadb
+
+# mysql -u root -p
+
+MariaDB> CREATE USER 'monty'@'localhost' IDENTIFIED BY 'some_pass';
+MariaDB> GRANT ALL PRIVILEGES ON *.* TO 'monty'@'localhost';
+MariaDB> FLUSH PRIVILEGES;
+MariaDB> quit
+```
