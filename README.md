@@ -183,3 +183,9 @@ MariaDB> GRANT ALL PRIVILEGES ON *.* TO 'monty'@'localhost';
 MariaDB> FLUSH PRIVILEGES;
 MariaDB> quit
 ```
+23. Add db connection in nvim
+open nvim
+open dbui
+```
+mysql://user@localhost
+```
