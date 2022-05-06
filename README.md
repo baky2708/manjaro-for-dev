@@ -189,3 +189,7 @@ open dbui
 ```
 mysql://user@localhost
 ```
+24. install tmuxinator
+```
+gem install tmuxinator
+```
